@@ -6,5 +6,16 @@ public class Main {
         // Let's チャレンジ！！
 
         System.out.println("paiza");
+        import java.util.*;
+
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+
+        int n = new Scanner(System.in).nextInt();
+        for(int count = 0; count < n ; count++){
+            System.out.println("paiza");
+        }
+    }
+}
     }
 }
