@@ -15,7 +15,11 @@ public class Main {
         for(int count = 0; count < n ; count++){
             System.out.println("paiza");
         }
-    }
-}
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for (int i = 0; i < N; i++) {
+            int token1 = sc.nextInt();
+            System.out.println(token1);
+        }
     }
 }
