@@ -11,28 +11,39 @@ public class Main {
         // 自分の得意な言語で
         // Let's チャレンジ！！
 
-        int n = new Scanner(System.in).nextInt();
-        for(int count = 0; count < n ; count++){
-            System.out.println("paiza");
-        }
+        // int n = new Scanner(System.in).nextInt();
+        // for(int count = 0; count < n ; count++){
+        //     System.out.println("paiza");
+        // }
+        //
+        // Scanner sc = new Scanner(System.in);
+        // int N = sc.nextInt();
+        // for (int i = 0; i < N; i++) {
+        //     int token1 = sc.nextInt();
+        //     System.out.println(token1);
+        // }
+        //
+        // Scanner sc = new Scanner(System.in);
+        // int N = sc.nextInt();
+        // int token = 0;
+        // for (int i = 0; i < N; i++) {
+        //     int b = sc.nextInt();
+        //     if(token < b){
+        //         token = b;
+        //     }
+        //
+        // }
+        // System.out.println(token);
 
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        for (int i = 0; i < N; i++) {
-            int token1 = sc.nextInt();
-            System.out.println(token1);
-        }
+        int n = sc.nextInt();
 
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int token = 0;
-        for (int i = 0; i < N; i++) {
-            int b = sc.nextInt();
-            if(token < b){
-                token = b;
-            }
-
+        for(int count = 0 ; count < n ; count++ ){
+          if(count == (n-1)){
+            System.out.print("paiza");
+          }else{
+            System.out.print("paiza ");
+          }
         }
-        System.out.println(token);
     }
 }
