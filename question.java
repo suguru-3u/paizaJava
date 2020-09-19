@@ -35,15 +35,23 @@ public class Main {
         // }
         // System.out.println(token);
 
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        //
+        // for(int count = 0 ; count < n ; count++ ){
+        //   if(count == (n-1)){
+        //     System.out.print("paiza");
+        //   }else{
+        //     System.out.print("paiza ");
+        //   }
+        // }
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         for(int count = 0 ; count < n ; count++ ){
-          if(count == (n-1)){
-            System.out.print("paiza");
-          }else{
-            System.out.print("paiza ");
-          }
+            int b = sc.nextInt();
+            System.out.println(b);
         }
     }
 }
