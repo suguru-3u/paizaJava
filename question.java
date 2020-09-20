@@ -46,12 +46,22 @@ public class Main {
         //   }
         // }
 
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        //
+        // for(int count = 0 ; count < n ; count++ ){
+        //     int b = sc.nextInt();
+        //     System.out.println(b);
+        // }
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         for(int count = 0 ; count < n ; count++ ){
+            String a = sc.next();
             int b = sc.nextInt();
-            System.out.println(b);
+            String h = " ";
+            System.out.println(a + h + (b + 1));
         }
     }
 }
