@@ -54,14 +54,23 @@ public class Main {
         //     System.out.println(b);
         // }
 
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        //
+        // for(int count = 0 ; count < n ; count++ ){
+        //     String a = sc.next();
+        //     int b = sc.nextInt();
+        //     String h = " ";
+        //     System.out.println(a + h + (b + 1));
+        // }
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         for(int count = 0 ; count < n ; count++ ){
-            String a = sc.next();
             int b = sc.nextInt();
-            String h = " ";
-            System.out.println(a + h + (b + 1));
+            int valLen = String.valueOf( b).length();
+            System.out.println(valLen);
         }
     }
 }
