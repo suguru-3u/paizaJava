@@ -64,13 +64,15 @@ public class Main {
         //     System.out.println(a + h + (b + 1));
         // }
 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
 
-        for(int count = 0 ; count < n ; count++ ){
-            int b = sc.nextInt();
-            int valLen = String.valueOf( b).length();
-            System.out.println(valLen);
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        String strr = sc.next();
+        int d = strr.indexOf(str);
+        if(d >= 0){
+            System.out.println("YES");
+        }else{
+            System.out.println("NO");
         }
     }
 }
