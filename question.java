@@ -65,24 +65,38 @@ public class Main {
         // }
 
 
-        Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        String strr = sc.next();
-        int d = strr.indexOf(str);
-        if(d >= 0){
-            System.out.println("YES");
-        }else{
-            System.out.println("NO");
-        }
+        // Scanner sc = new Scanner(System.in);
+        // String str = sc.next();
+        // String strr = sc.next();
+        // int d = strr.indexOf(str);
+        // if(d >= 0){
+        //     System.out.println("YES");
+        // }else{
+        //     System.out.println("NO");
+        // }
+        //
+        // Scanner sc = new Scanner(System.in);
+        // String str = sc.next();
+        // String strr = sc.next();
+        // int d = strr.indexOf(str);
+        // if(d >= 0){
+        //     System.out.println("YES");
+        // }else{
+        //     System.out.println("NO");
+        // }
 
         Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        String strr = sc.next();
-        int d = strr.indexOf(str);
-        if(d >= 0){
-            System.out.println("YES");
-        }else{
-            System.out.println("NO");
-        }
+       String string = sc.next();
+
+       String[] msg = string.split(":", 0);
+
+       for(int count = 0; count < msg.length ; count++){
+           int s = msg[count].indexOf("0");
+           if(s == 0){
+               System.out.println(msg[count].charAt(1));
+           }else{
+               System.out.println(msg[count]);
+           }
+       }
     }
 }
