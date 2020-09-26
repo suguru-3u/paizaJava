@@ -85,18 +85,32 @@ public class Main {
         //     System.out.println("NO");
         // }
 
-        Scanner sc = new Scanner(System.in);
-       String string = sc.next();
+      // Scanner sc = new Scanner(System.in);
+      //  String string = sc.next();
+      //
+      //  String[] msg = string.split(":", 0);
+      //
+      //  for(int count = 0; count < msg.length ; count++){
+      //      int s = msg[count].indexOf("0");
+      //      if(s == 0){
+      //          System.out.println(msg[count].charAt(1));
+      //      }else{
+      //          System.out.println(msg[count]);
+      //      }
+      //  }
 
-       String[] msg = string.split(":", 0);
+       Scanner sc = new Scanner(System.in);
+        String string = sc.next();
 
-       for(int count = 0; count < msg.length ; count++){
-           int s = msg[count].indexOf("0");
-           if(s == 0){
-               System.out.println(msg[count].charAt(1));
-           }else{
-               System.out.println(msg[count]);
-           }
-       }
+        String[] msg = string.split(":", 0);
+
+        for(int count = 0; count < msg.length ; count++){
+            int s = msg[count].indexOf("0");
+            if(s == 0){
+                System.out.println(msg[count].charAt(1));
+            }else{
+                System.out.println(msg[count]);
+            }
+        }
     }
 }
