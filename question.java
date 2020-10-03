@@ -202,5 +202,27 @@ public class Main {
               System.out.println(num);
             }
          }
+
+         int n = new Scanner(System.in).nextInt();
+         for(int count = 0; count < n ; count++){
+             System.out.println("paiza");
+         }
+
+         Scanner sc = new Scanner(System.in);
+         int N = sc.nextInt();
+         for (int i = 0; i < N; i++) {
+             int token1 = sc.nextInt();
+             System.out.println(token1);
+         }
+
+         Scanner sc = new Scanner(System.in);
+         int N = sc.nextInt();
+         int token = 0;
+         for (int i = 0; i < N; i++) {
+             int b = sc.nextInt();
+             if(token < b){
+                 token = b;
+             }
+         
     }
 }
